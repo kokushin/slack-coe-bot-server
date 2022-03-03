@@ -1,0 +1,22 @@
+{
+  "name": "slack-coe-bot-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kokushin/slack-coe-bot-server.git",
+  "author": "kokushin <mail@kokush.in>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "npm run dev & ngrok http 3000"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "ngrok": "^4.3.0",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "uuid": "^8.3.2",
+    "voicetext": "^0.0.7"
+  }
+}
